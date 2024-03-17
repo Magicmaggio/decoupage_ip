@@ -2,7 +2,7 @@
 
 Répartition équitable des adresses IP dans tout le réseau :
 Pour tous les pôles : 2^6-2 = 62 donc on peut adresser 62 machines par réseau.
-CIDR = 32-6 = 26
+- CIDR = 32-6 = 26
 
 | Pôle          | Adresse réseau  | Adresse broadcast | Début de plage  | Fin de plage    |
 | ------------- | --------------- | ----------------- | --------------- | --------------- |
@@ -14,10 +14,10 @@ CIDR = 32-6 = 26
 ## Découpage asymétrique du réseau
 
 Allocation de plus d'adresses aux pôles ayant plus d'équipements :
-Pôle informatique : 2^6-2 = 64-2 = 62
-Pôle développement : 2^4-2 = 16-2 = 14
-Pôle administratif : 2^5-2 = 32-2 = 30
-Pôle technicien : 2^5-2 = 32-2 = 30
+- Pôle informatique : 2^6-2 = 64-2 = 62
+- Pôle développement : 2^4-2 = 16-2 = 14
+- Pôle administratif : 2^5-2 = 32-2 = 30
+- Pôle technicien : 2^5-2 = 32-2 = 30
 
 | Pôle          | Adresse réseau  | Adresse broadcast | Début de plage  | Fin de plage    |
 | ------------- | --------------- | ----------------- | --------------- | --------------- |
